@@ -16,7 +16,7 @@ const app = express();
 const port = 3000;
 
 const corsOptions = {
-  origin: "https://prashanth036.github.io",
+  origin: process.env.REACT_URL,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, 
 };
