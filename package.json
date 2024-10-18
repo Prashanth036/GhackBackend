@@ -23,6 +23,7 @@
   "main": "index.js",
 
   "scripts": {
+    "postinstall": "npm rebuild sqlite3 --build-from-source",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
